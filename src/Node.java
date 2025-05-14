@@ -4,6 +4,7 @@ import java.util.List;
 public class Node<T> {
   T value;
   List<Node<T>> children;
+  public char[] data;
   
   public Node(T value) {
     this(value, new ArrayList<>());
